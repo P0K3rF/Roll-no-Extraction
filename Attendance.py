@@ -22,4 +22,3 @@ for i in errors :
 #Sorting elements in integer order
 res.sort(key=int)
 print(','.join([err.strip() for err in res]))
-print(len(res))
